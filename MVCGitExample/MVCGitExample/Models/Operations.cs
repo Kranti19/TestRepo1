@@ -7,10 +7,11 @@ namespace MVCGitExample.Models
 {
     public class Operations
     {
-        public int Addition()
+        public int Addition(int x,int y)
         {
-            int a=10,b=20,c=a+b;
-            return c;
+            int a = x;
+            int b = y;
+            return a+b;
         }
             
     }
