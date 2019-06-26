@@ -9,9 +9,8 @@ namespace MVCGitExample.Models
     {
         public int Addition(int x,int y)
         {
-            int a = x;
-            int b = y;
-            return a+b;
+           
+            return x+y;
         }
             
     }
