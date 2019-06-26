@@ -11,6 +11,9 @@ namespace MVCGitExample.Controllers
         // GET: KranthiDemo
         public ActionResult Index()
         {
+            ViewBag.name = "Kranti";
+            ViewBag.age = "25";
+            ViewBag.Address = "Hyd";
             return View();
         }
     }
